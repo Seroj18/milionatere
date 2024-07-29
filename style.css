@@ -1,0 +1,126 @@
+   *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 400px 700px;
+        gap: 150px;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/795/309/192/video-game-who-wants-to-be-a-millionaire-wallpaper-preview.jpg);
+        background-size: cover;
+    }
+    .app{
+        display: grid;
+        background: #fff;
+        width: 90%;
+        max-width: 600px;
+        margin: 200px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .Simple-conteiner{
+        display: grid;
+        grid-template-columns: 450px 80px 30px;
+        border-bottom: 1px solid #333;
+    }
+    .Simple-quiz{
+        width: 350px;
+        font-size: 25px;
+        color: #001e4d;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    .Simple-time{
+        width: 75px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    .Simple-time,.Simple-number{
+        height: 30px;
+        align-items: center;
+        display: grid;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Simple-number{
+        border-radius: 5px;
+        color: white;
+        background-color: #333;
+    }
+    .quiz{
+        padding: 20px 0;
+    }
+    .quiz h2{
+        font-size: 18px;
+        color: #001e4d;
+        font-weight: 600;
+    }
+    .answer-buttons{
+        padding-bottom: 20px;
+    }
+    .btn{
+        background: #fff;
+        color: #222;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid #222;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .btn:hover:not(:disabled){
+        background: #222;
+        color: #fff;
+    }
+    .btn:disabled{
+        cursor: no-drop;
+    }
+    .btn-div{
+        border-top: 1px solid #333;    display: grid;
+        padding-top: 20px;
+        grid-template-columns: 200px 100px;
+    }
+    #next-btn{
+        display: grid;
+        background: #001e4d;
+        color: #fff;
+        font-weight: 500;
+        width: 150px;
+        border: 0;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        display: none;
+    }
+    .questionIndex{
+        display: grid;
+        width: auto;
+    }
+    .correct{
+        background: #9aeabc;
+    }
+    .incorrect{
+        background: #ff9393;
+    }
+    .game_maney{
+        align-items: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        display: grid;
+        color: white;
+        margin: 200px 400px 0;
+        width: 200px;
+        height: auto;
+    }
+    .game_maney p{
+        font-size: 25px;
+    }
+    .maney{
+        color: yellow;
+    }
+    
